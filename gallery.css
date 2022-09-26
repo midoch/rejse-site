@@ -1,0 +1,21 @@
+/* Gallery*/
+
+
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.photo-grid {
+  display: flex;
+  margin-left: auto;
+  flex-wrap: wrap;
+
+}
+
+.foto {
+  max-width: 46%;
+  margin: 2%;
+}

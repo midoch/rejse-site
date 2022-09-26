@@ -1,0 +1,127 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+h1 {
+  font-size: 2em;
+  padding: 0.5em 0 0;
+}
+
+nav {
+  margin: 2em 0;
+}
+
+nav ul,
+footer {
+  justify-content: space-around;
+}
+
+nav ul {
+  list-style-type: none;
+  border-top: solid 5px rgb(0, 0, 0);
+  border-bottom: solid 5px rgb(0, 0, 0);
+  padding: 1em 0;
+  background-color: rgb(237, 237, 237);
+  font-weight: 500;
+}
+
+nav li {
+  font-size: 1.5em;
+  display: flex;
+}
+
+/* cast:  */
+.cast {
+  list-style: none;
+  list-style-position: inside;
+}
+
+.cast li {
+  padding-bottom: 0.75em;
+  font-weight: 500;
+}
+
+/* Good offers */
+
+h3 {
+  font-size: 25px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+h3,
+h6 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+nav ul,
+footer,
+section,
+article {
+  display: flex;
+}
+
+/*  se https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/  */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* - for 16:9 video*/
+  /*padding-bottom: 75%;*/
+  /* - for 4:3 video*/
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0.6em 1%;
+}
+
+[class*="flex"] {
+  padding: 0.5em 1%;
+}
+
+.flex5 {
+  flex: 5;
+}
+
+.flex7 {
+  flex: 7;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #000000;
+  color: #000000;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+a:hover {
+  box-shadow: inset 100px 0 0 0 #000000;
+  color: white;
+}
+
+.center {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
